@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ARMSwiftSuite_Example' do
+  pod 'ARMSwiftSuite', :path => '../'
+
+  target 'ARMSwiftSuite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
