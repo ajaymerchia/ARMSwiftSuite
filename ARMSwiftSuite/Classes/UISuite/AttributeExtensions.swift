@@ -1,6 +1,7 @@
 import SwiftUI
 
-extension Color {
+@available(iOS 13.0, *)
+public extension Color {
 	init(hex: String) {
 		guard let rgb = Int(hex.replacingOccurrences(of: "#", with: "")) else {
 			fatalError("Invalid hex string \"\(hex)\"")
