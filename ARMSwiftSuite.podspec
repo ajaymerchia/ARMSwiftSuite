@@ -26,7 +26,8 @@ This is a pod that works for iOS13.0+ to provide developers with quicker ways to
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ajaymerchia' => 'ajaymerchia@berkeley.edu' }
   s.source           = { :git => 'https://github.com/ajaymerchia/ARMSwiftSuite.git', :tag => s.version.to_s }
-
+	s.swift_version    = '5.0'
+	
 	s.ios.deployment_target = '13.0'
 
 	s.subspec 'UISuite' do |ui|
