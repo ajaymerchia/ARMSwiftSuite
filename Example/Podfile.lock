@@ -1,0 +1,16 @@
+PODS:
+  - ARMSwiftSuite (0.1.0)
+
+DEPENDENCIES:
+  - ARMSwiftSuite (from `../`)
+
+EXTERNAL SOURCES:
+  ARMSwiftSuite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARMSwiftSuite: 40111d8a825b50b82bb54f7a58e60dd37cce4561
+
+PODFILE CHECKSUM: 307ae32288f8b4cc3a6a370331598a3b075f5ab8
+
+COCOAPODS: 1.8.4
